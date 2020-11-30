@@ -1,9 +1,9 @@
 # Author: Jean-Charles Croix
 # Year: 2019
 # email: j.croix@sussex.ac.uk
-
+# email2: F.Di-Lauro@sussex.ac.uk
 # This first code provides the Least-Square estimation of C,a,p model from raw data uk, tk.
-# uk is the number of up jumps from state k
+# uk is the average SI in state k
 # tk is the time spent in state k
 
 import numpy as np

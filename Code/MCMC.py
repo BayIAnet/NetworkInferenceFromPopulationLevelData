@@ -1,9 +1,7 @@
 # Author: Jean-Charles Croix
 # Year: 2019
 # email: j.croix@sussex.ac.uk
-  
-# This set of functions provide a simple MCMC algorithm.
-
+# This code contains MonteCarlo functions used in the paper
 import numpy as np
 import matplotlib.pyplot as plt
 import timeit
@@ -120,6 +118,13 @@ def plot_acf(results, burn, lags=200):
     plt.ylim(-0.1, 1)
     plt.legend(loc='best')
     plt.show()
+
+
+#def plot_scatter(keep):
+#    # Matrix scatter plot
+#    df = pd.DataFrame(keep[:,1:3], columns=[r'$\tau$', r'$\gamma$'])
+#    pd.plotting.scatter_matrix(df, alpha=1, diagonal='kde', )
+#    plt.show()
 
 
 def acorr(x):

@@ -1,6 +1,7 @@
 # Author: Jean-Charles Croix
 # Year: 2019
 # email: j.croix@sussex.ac.uk
+# email2: F.Di-Lauro@sussex.ac.uk
 
 # This second code fits a KDE estimator to each network family.
 

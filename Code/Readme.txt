@@ -4,4 +4,4 @@ Each files compiles different stages of the analysis.
 2. Here the 3 different priors are fitted using KDE
 3. Finally, the classification method is provided.
 
-If you find any error, please contact j.croix@sussex.ac.uk
+If you find any error, please contact j.croix@sussex.ac.uk or, alternatively F.Di-Lauro@sussex.ac.uk
